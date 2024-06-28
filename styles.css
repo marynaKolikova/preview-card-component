@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body,
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mainRectangle {
+  width: 920px;
+  height: 500px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  align-items: stretch;
+}
+
+.item-rectangle {
+  width: 307px;
+  padding: 48px;
+}
+
+.first {
+  background-color: #e28625;
+}
+
+.second {
+  background-color: #006971;
+}
+
+.third {
+  background-color: #004140;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.circle div {
+  width: 44px;
+  position: absolute;
+  left: 100%;
+  transform: translate(-50%, 50%);
+}
+
+.carSedans {
+  height: 20px;
+  background-image: url(./img/sedans.svg);
+}
+
+.carSUVs {
+  height: 24px;
+  background-image: url(./img/suvs.svg);
+}
+
+.carLuxury {
+  height: 18px;
+  background-image: url(./img/luxury.svg);
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 142px;
+  height: 44px;
+  background: #f2f2f2;
+  border-radius: 25px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.item-rectangle a:hover {
+  color: #f2f2f2;
+  border-color: #f2f2f2;
+  background: rgb(242, 242, 242, 0);
+}
+
+.first a {
+  color: rgb(226, 134, 37, 1);
+}
+
+.second a {
+  color: #006971;
+}
+
+.third a {
+  color: #004140;
+}
+
+h1 {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  margin-bottom: 25px;
+}
+
+p {
+  max-height: 150px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  margin-bottom: 83px;
+}
